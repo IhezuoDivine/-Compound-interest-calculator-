@@ -1,0 +1,56 @@
+body {
+  background-color: gray;
+}
+h1{
+  font-size:3em;
+  text-align:center;
+  color: beige;
+  font-weight: bold;
+}
+form{
+  margin: auto;
+  background-color:burlywood;
+  box-shadow: 5px 5px 10px;
+  align-items: center;
+  max-width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+}
+label{
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 2.5em;
+}
+input{
+  padding: 10px 15px ;
+  text-align: center;
+  font-size: 2em;
+  background-color: gray;
+  color: whitesmoke;
+  width: 40%;
+}
+button{
+  border: none;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  border-radius:10px;
+
+}
+button:hover{
+  background-color:darkslategrey;
+}
+p{
+  font-weight:bold ;
+  font-size: 3em;
+}
+#textanswer{
+  color: black;
+  font-weight:bold;
+  font-size: 1em;
+}
